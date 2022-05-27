@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 100%;
+	height: 100vh;
+}
+
+.canvas {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wrap_row {
+	width: 100%;
+
+	display: flex;
+}
+
+.row_item {
+	width: 16.6666666667%;
+	height: 33.33vh;
+
+	border: 1px solid #000;
+}
+
+.row_item_white {
+	background-color: #999;
+}
+
+.row_item_green {
+	background-color: seagreen;
+}
